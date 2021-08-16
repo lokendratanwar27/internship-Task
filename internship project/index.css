@@ -1,0 +1,187 @@
+.navbar {
+  background-color: white;
+  Box-shadow: 1px 2px 3px #ccc;
+  display: flex;
+  width: 100%;
+}
+
+.navbar li {
+  float: right;
+  list-style: none;
+  margin: 1px 12px;
+}
+
+.logo {
+  padding: 13px 7px;
+  margin: 3px 3px;
+  font-weight: bold;
+  font-size: large;
+
+}
+
+.right {
+  /* float: left; */
+  width: 100%;
+
+}
+
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table {
+  display: flex;
+   padding: 0px 9px 30vh;;
+  margin: auto;
+
+
+}
+
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+
+}
+
+.navbar input {
+  border: 2px solid rgb(255, 254, 254);
+  padding: 3px 17px;
+  width: 129px;
+
+}
+
+
+.container {
+  width: 500px;
+  height: 150px;
+  border: 1px solid #181818;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  /* vertical-align: center; */
+}
+
+.margin0- {
+  margin: 4px 0;
+  color: green;
+
+}
+
+.margin1- {
+  margin: 4px 0;
+}
+
+.dr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 45%;
+
+}
+
+.Navg {
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:link {
+
+  text-decoration: none;
+  text-decoration-color: rgb(43, 133, 250);
+  font-weight: bold;
+}
+
+.dl {
+  padding-left: 8%;
+  border-right: 1px solid;
+  align-items: baseline;
+}
+
+.Parent{
+  border-right: 1px solid #ccc;
+  display: flex;
+  width: 24%;
+  height: 102%;
+
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.Blue {
+  color: rgb(0, 0, 255);
+  font-weight: bold;
+}
+
+.Anc {
+  color: blue;
+}
+.footer{
+  width: 20%;
+  height: 4%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0%;
+
+}
+#chartContainer{
+  height: 200px;
+    width: 20%;
+    position: relative;
+    bottom: 0;
+}
+#gsearch{
+  border: 0;
+    padding: 2px 0px;
+    font-size: 11px;
+    width: 87%;
+}
+.srchL{
+  width: 100%;
+}
+.commonfont{
+width: 100%;
+font-size: 12px;
+border-bottom: 1px solid;
+padding: 8px 8px;
+box-sizing: border-box;
+font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+.flexed{
+  display: flex;
+  justify-content: space-between;
+}
+
+.piecontainer{
+  align-items: center;
+    justify-content: space-around;
+}
+.book{
+  color: green;
+  display: flex;
+
+}

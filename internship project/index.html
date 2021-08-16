@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>assignment</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <script src="index.js">
+
+
+
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Logo</div>
+
+      <ul class="right">
+        <li><a href="#">Order Book</a></li>
+        <li><a href="#">Holding</a></li>
+        <li><a href="#">Companies</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div style="display: flex; height: 90vh;">
+    <div class="Parent">
+
+      <div class="srchL">
+        <div>
+          <i class="fa fa-search" style="color: rgb(196, 191, 191);"></i>
+          <input type="search" id="gsearch" name="gsearch" placeholder="Search Eg Zerodha,Grow,upstox">
+        </div>
+        <div>
+          <div class="flexed commonfont">
+            <div>UPSTOX</div>
+            <div class="book">BUY <&nbsp> <div class="red" >SELL</div> <i class="material-icons" style="font-size:24px;color: black;">bookmark</i> </div>
+          </div>
+          <div class="flexed commonfont">
+            <div>ZERODHA</div>
+            <div class="book">BUY <&nbsp> <div class="red" >SELL</div> <i class="fa fa-bookmark-o" style="font-size:24px ;color: black"></i></div>
+          </div>
+          <div class="flexed commonfont">
+            <div>GROWW</div>
+            <div class="book">BUY <&nbsp> <div class="red" >SELL</div> <i class="fa fa-bookmark-o" style="font-size:24px ;color: black"></i></div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">All companies | Watchlist</footer>
+
+    </div>
+</body>
+
+
+
+<div style="width:95%;">
+  <div class="Navg">
+    <h2 style="color: rgb(111 111 111);">Holdings(6)</h2>
+    <div class="Anc">
+      <i class="fa fa-puzzle-piece" style="font-size:24px ; color:blue"></i>
+      <a href="#">Add Holdings</a>
+      <i class="fa fa-cloud-download" style="font-size:24px ; color:blue"></i>
+      <a href="#" onclick="exportTableToCSV('members.csv')">Download</a>
+    </div>
+  </div>
+  </p>
+  <div class="table">
+    <table>
+      <tr>
+        <td>Instrument</td>
+      </tr>
+      <tr>
+        <td>TATA POWER</td>
+      </tr>
+
+      <tr>
+        <td>ADANI POWER</td>
+      </tr>
+
+      <tr>
+        <td>RPOWER</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th>Qty.</th>
+        <th>Avg.Cost</th>
+        <th>LTP</th>
+      </tr>
+      <tr>
+        <td>400</td>
+        <td>114.00</td>
+        <td>118.15</td>
+      </tr>
+      <tr>
+        <td>400</td>
+        <td>114.00</td>
+        <td>118.15</td>
+      </tr>
+      <tr>
+        <td>4000</td>
+        <td>114.00</td>
+        <td>-</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th>Cur. value</th>
+        <th>P&L</th>
+        <th>Net Change</th>
+      </tr>
+      <tr>
+        <td>47,260.00</td>
+        <td class="green">1,660.00</td>
+        <td class="green">+3.46%</td>
+      </tr>
+      <tr>
+        <td>47.260.00</td>
+        <td class="red">1.660.00</td>
+        <td class="red">-3.46%</td>
+      </tr>
+      <tr>
+        <td> - </td>
+        <td> - </td>
+        <td> - </td>
+      </tr>
+    </table>
+
+
+  </div>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <div class="flexed piecontainer">
+    <div class="container">
+      <div class="dr dl" <h4 class="margin0-">P&L</h4>
+        <div class="margin0-">&#x20b9; 50000</div>
+        <div class="margin0-">+24.2%</div>
+      </div>
+      <div class="dr">
+        <div class="margin1-">Total investement &#x20b9;100000 </div>
+        <div class="margin1-">Current Value &#x20b9;150000</div>
+      </div>
+
+
+    </div>
+
+    <div id="chartContainer"></div>
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+</html>
